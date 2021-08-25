@@ -18,7 +18,7 @@ fig = plt.figure(dpi=64, figsize=(20,12))
 x_values=dates
 y_values=ch1
 plt.plot(x_values,y_values,c='red')
-plt.title("Daily high temperature, July 2014", fontsize=24)
+plt.title("CSV", fontsize=24)
 plt.xlabel('',fontsize=16)
 plt.ylabel("Temperature(F)", fontsize=16)
 plt.tick_params(axis='both', which="major", labelsize=16) 
