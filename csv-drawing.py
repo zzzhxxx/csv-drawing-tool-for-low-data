@@ -8,8 +8,6 @@ filename = dlg.GetPathName()
 with open(filename) as f:
         reader = csv.reader(f)
         header_row = next(reader)
-        for index, column_header in enumerate(header_row):
-                print(index, column_header)
         dates,ch1 = [],[]
         for row in reader:
             dates.append(row[0])
